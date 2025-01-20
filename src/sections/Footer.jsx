@@ -15,15 +15,21 @@ const Footer = () => {
         </div>
         <div className="social-icon">
           <a href="https://www.linkedin.com/in/andyjbae/">
-            <img src="/assets/linkedin.png" alt="twitter" className="w-7 h-6" />
+            <img
+              src="/assets/linkedin.png"
+              alt="linkedin"
+              className="w-7 h-6"
+            />
           </a>
         </div>
         <div className="social-icon">
-          <img
-            src="/assets/instagram.svg"
-            alt="instagram"
-            className="w-1/2 h-1/2"
-          />
+          <a href="https://www.instagram.com/bbb_toad/">
+            <img
+              src="/assets/instagram.svg"
+              alt="instagram"
+              className="w-7 h-7"
+            />
+          </a>
         </div>
       </div>
 
