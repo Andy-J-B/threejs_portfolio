@@ -11,8 +11,8 @@ export const navLinks = [
     },
     {
         id: 3,
-        name: 'Work',
-        href: '#work',
+        name: 'Projects',
+        href: '#projects',
     },
     {
         id: 4,
@@ -57,14 +57,15 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
+
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'ClearWrite - AI writing improvement platform',
+        desc: 'ClearWrite is an innovative platform that empowers users to improve their writing skills with AI-driven tools. It provides personalized feedback through advanced grammar checks, readability analysis, and detailed suggestions, all without rewriting or altering original ideas.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+            'Developed as a web application using React, Node.js, Vite, and the TextGears API, ClearWrite is built for efficiency, reliability, and user-focused writing improvement. Deployed on Netlify and Render, it ensures seamless performance and accessibility.',
         href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
         texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        logo: '/assets/clearwrite-background.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
@@ -95,19 +96,19 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'Faster Than Light Yagami - A Speed Typing Adventure',
+        desc: 'Inspired by the iconic anime series Death Note, Faster Than Light Yagami is a thrilling speed typing game that tests your reflexes and typing skills. As the timer shortens and the words become more challenging, players race against time to secure their place on the leaderboard while enjoying engaging audio and video elements.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+            'Developed during the Fall Hacks 2024 competition using Godot, this project was born from a shared passion for creative game design and problem-solving. Overcoming GitHub challenges and mastering Godot’s scripting, we created a game that celebrates teamwork and innovation. Future plans include integrating OCR APIs for letter-drawing mechanics to enhance gameplay.',
+        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/clearwrite-background.png',
         logoStyle: {
-            backgroundColor: '#13202F',
-            border: '0.2px solid #17293E',
-            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
@@ -132,21 +133,19 @@ export const myProjects = [
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'Hydrowave - Android E-commerce Application',
+        desc: 'Hydrowave is a React Native-based mobile application designed to introduce the company and showcase its product line while seamlessly embedding the Shopify store for e-commerce functionality. The app provides users with an intuitive and responsive shopping experience.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-        texture: '/textures/project/project3.mp4',
-        logo: '/assets/project-logo3.png',
+            'Developed as a freelance project in September 2024, Hydrowave was built using React Native, Expo, and WebView. Through close collaboration with the client, the app was taken through the prototyping life cycle, ensuring all requirements were met and resulting in a polished product deployed on the Google Play Store.',
+        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/clearwrite-background.png',
         logoStyle: {
-            backgroundColor: '#60f5a1',
-            background:
-                'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-            border: '0.2px solid rgba(208, 213, 221, 1)',
-            boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight3.png',
+        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
@@ -171,19 +170,19 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: 'Bank Management System - A C++ Banking Application',
+        desc: 'The Bank Management System is a C++-based application integrated with SQLite, designed for efficient management of user accounts, transactions, and balances. It features a transaction tracking system and a unique undo function for enhanced user control.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-        texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
+            'Developed as a personal project in June 2024, this system utilizes a stack data structure to enable transaction reversal and ensures a seamless user experience through its intuitive interface.',
+        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/clearwrite-background.png',
         logoStyle: {
-            backgroundColor: '#0E1F38',
-            border: '0.2px solid #0E2D58',
-            boxShadow: '0px 0px 60px 0px #2F67B64D',
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight4.png',
+        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
@@ -208,19 +207,56 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+        title: 'Net Worth Calculator - A PERN Stack Web App',
+        desc: 'The Net Worth Calculator is a web application that allows users to calculate and track their net worth while analyzing historical trends for better financial insights. Built with the PERN stack (PostgreSQL, Express.js, React, and Node.js), it ensures robust performance and smooth CRUD operations.',
         subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
+            'Completed in February 2024 as a personal project, the application features RESTful APIs for seamless backend communication, a dynamic frontend for user interaction, and a visually engaging interface built with HTML and CSS.',
+        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/clearwrite-background.png',
         logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight5.png',
+        spotlight: '/assets/spotlight1.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'TypeScript',
+                path: '/assets/typescript.png',
+            },
+            {
+                id: 4,
+                name: 'Framer Motion',
+                path: '/assets/framer.png',
+            },
+        ],
+    },
+    {
+        title: 'Quant Regression Trading Algorithm - Data-Driven Financial Decisions',
+        desc: 'This project focuses on developing a Python-based trading algorithm that leverages regression analysis to signal buy, sell, and hold decisions. It emphasizes precision and data-driven strategies for financial market operations.',
+        subdesc:
+            'Created as a group project from June 2023 to May 2024, it involved collaborative development using GitHub workflows, enhancing skills in Python software structuring, testing, and teamwork within a financial technology context.',
+        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        texture: '/textures/project/project1.mp4',
+        logo: '/assets/clearwrite-background.png',
+        logoStyle: {
+            backgroundColor: '#2A1816',
+            border: '0.2px solid #36201D',
+            boxShadow: '0px 0px 60px 0px #AA3C304D',
+        },
+        spotlight: '/assets/spotlight1.png',
         tags: [
             {
                 id: 1,
