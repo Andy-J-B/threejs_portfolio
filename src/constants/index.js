@@ -1,3 +1,4 @@
+import motorola from "../assets/companies/motorola.svg";
 export const navLinks = [
   {
     id: 1,
@@ -224,6 +225,23 @@ export const myProjects = [
         name: "Python",
         path: "/assets/python.svg",
       },
+    ],
+  },
+];
+
+export const experiences = [
+  {
+    title: "Test Developer",
+    company_name: "Motorola Solutions",
+    icon: motorola,
+    iconBg: "#ffffff",
+    date: "Starting on May 2025",
+    points: [
+      "Developing and maintaining automated test scripts to validate software and hardware performance.",
+      "Collaborating with cross-functional teams, including developers and QA engineers, to improve testing strategies.",
+      "Analyzing system performance, identifying bottlenecks, and recommending improvements.",
+      "Participating in defect tracking and resolution using JIRA.",
+      "Ensuring Avigilon's security products meet high-quality standards through comprehensive testing.",
     ],
   },
 ];
