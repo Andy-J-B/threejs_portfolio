@@ -237,11 +237,11 @@ export const experiences = [
     iconBg: "#ffffff",
     date: "May 2025 - December 2025",
     points: [
-      "Developing and maintaining automated test scripts to validate software and hardware performance.",
-      "Collaborating with cross-functional teams, including developers and QA engineers, to improve testing strategies.",
-      "Analyzing system performance, identifying bottlenecks, and recommending improvements.",
-      "Participating in defect tracking and resolution using JIRA.",
-      "Ensuring Avigilon's security products meet high-quality standards through comprehensive testing.",
+      "Supporting Avigilon's transition from the legacy Tricorder benchmarking system to Benchmark 2.0, modernizing the automation framework for performance testing.",
+      "Designing and implementing a high-level C#/.NET client for Dell Switch OS10, enabling automated switch control for the new Benchmark 2.0 system.",
+      "Managing and executing test suites through TestRail, ensuring consistency and reliability of performance regression testing.",
+      "Collaborating with systems and embedded developers to evolve automation strategies and improve test coverage for upcoming hardware releases.",
+      "Developing and maintaining automated test scripts in Python to validate software and hardware performance.",
     ],
   },
 ];
