@@ -37,11 +37,11 @@ const Projects = () => {
 
   return (
     <section className="c-space my-20" id="projects">
-      <p className="head-text">My Selected Work</p>
+      <p className="head-text">My Projects</p>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
-          <div className="absolute top-0 right-0">
+          <div className="absolute top-0 right-0 z-[-1]">
             <img
               src={currentProject.spotlight}
               alt="spotlight"
@@ -64,11 +64,36 @@ const Projects = () => {
             )}
           </div>
 
-          <div className="flex flex-col gap-5 text-white-600 my-5">
-            <p className="text-white text-2xl font-semibold animatedText">
-              {currentProject.title}
-            </p>
+          <div className="flex items-center justify-between mt-7">
+            {/* Left Arrow */}
+            <button
+              className="arrow-btn"
+              onClick={() => handleNavigation("previous")}
+            >
+              <img src="/assets/left-arrow.png" alt="left arrow" />
+            </button>
 
+            {/* Title centered and flexible */}
+            <div className="flex-1 text-center px-4">
+              <p className="text-white text-2xl font-semibold animatedText">
+                {currentProject.title}
+              </p>
+            </div>
+
+            {/* Right Arrow */}
+            <button
+              className="arrow-btn"
+              onClick={() => handleNavigation("next")}
+            >
+              <img
+                src="/assets/right-arrow.png"
+                alt="right arrow"
+                className="w-4 h-4"
+              />
+            </button>
+          </div>
+
+          <div className="flex flex-col gap-5 text-white-600 my-5">
             <p className="animatedText">{currentProject.desc}</p>
             <p className="animatedText">{currentProject.subdesc}</p>
           </div>
@@ -91,26 +116,6 @@ const Projects = () => {
               <p>Check Live Site</p>
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
-          </div>
-
-          <div className="flex justify-between items-center mt-7">
-            <button
-              className="arrow-btn"
-              onClick={() => handleNavigation("previous")}
-            >
-              <img src="/assets/left-arrow.png" alt="left arrow" />
-            </button>
-
-            <button
-              className="arrow-btn"
-              onClick={() => handleNavigation("next")}
-            >
-              <img
-                src="/assets/right-arrow.png"
-                alt="right arrow"
-                className="w-4 h-4"
-              />
-            </button>
           </div>
         </div>
 

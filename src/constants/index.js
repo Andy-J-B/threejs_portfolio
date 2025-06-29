@@ -61,11 +61,10 @@ export const clientReviews = [
 export const myProjects = [
   {
     title: "ContextConnect - AI writing improvement platfor",
-    desc: "ClearWrite is an innovative platform that empowers users to improve their writing skills with AI-driven tools. It provides personalized feedback through advanced grammar checks, readability analysis, AI detection, and detailed suggestions, all without rewriting or altering original ideas.",
-    subdesc:
-      "Developed as a web application using React, Node.js, Bootstrap, Jest, and the Sapling and TextGears APIs, ClearWrite is built for efficiency, reliability, and user-focused writing improvement. Deployed on Netlify and Render, it ensures seamless performance and accessibility.",
-    href: "https://www.youtube.com/watch?v=dttIVY8RGUs",
-    texture: "/textures/project/project1.mov",
+    desc: "Coming soon ...",
+    subdesc: "",
+    href: "",
+    texture: "",
     logo: "/assets/project-logo-1.png",
     logoStyle: {
       backgroundColor: "#F0F0F0",
@@ -76,8 +75,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Python",
+        path: "assets/python.svg",
       },
 
       {
@@ -87,21 +86,16 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "Bootstrap",
-        path: "assets/Bootstrap_logo.svg",
-      },
-      {
-        id: 4,
-        name: "Jest",
-        path: "/assets/Jest.svg",
+        name: "React.js",
+        path: "/assets/react.svg",
       },
     ],
   },
   {
-    title: "ConfluenceFormatter - AI writing improvement platform",
-    desc: "ClearWrite is an innovative platform that empowers users to improve their writing skills with AI-driven tools. It provides personalized feedback through advanced grammar checks, readability analysis, AI detection, and detailed suggestions, all without rewriting or altering original ideas.",
+    title: "ConfluenceFormatter - Smart Confluence Page Enhancer",
+    desc: "ConfluenceFormatter is a specialized tool that streamlines and enhances the formatting of Confluence pages using AI-driven automation. It allows users to request formatting improvements through a simple interface, leveraging Motorola’s internal Gen AI for layout and style optimization, while ensuring prompt safety with integrated Palo Alto Networks AI security checks.",
     subdesc:
-      "Developed as a web application using React, Node.js, Bootstrap, Jest, and the Sapling and TextGears APIs, ClearWrite is built for efficiency, reliability, and user-focused writing improvement. Deployed on Netlify and Render, it ensures seamless performance and accessibility.",
+      "Built with Python, ConfluenceFormatter interacts with the Confluence API to retrieve and parse page content. It then prompts Motorola's internal Gen AI to generate polished XHTML output. To ensure secure and compliant usage, each prompt is also validated through Palo Alto's AI Security Check API. Designed for internal efficiency and safe collaboration, ConfluenceFormatter brings smart automation to enterprise documentation.",
     href: "https://www.youtube.com/watch?v=dttIVY8RGUs",
     texture: "/textures/project/project3.mov",
     logo: "Confluence",
