@@ -1,4 +1,5 @@
 import motorola from "../assets/companies/motorola.svg";
+
 export const navLinks = [
   {
     id: 1,
@@ -58,6 +59,66 @@ export const clientReviews = [
 ];
 
 export const myProjects = [
+  {
+    title: "ContextConnect - AI writing improvement platfor",
+    desc: "ClearWrite is an innovative platform that empowers users to improve their writing skills with AI-driven tools. It provides personalized feedback through advanced grammar checks, readability analysis, AI detection, and detailed suggestions, all without rewriting or altering original ideas.",
+    subdesc:
+      "Developed as a web application using React, Node.js, Bootstrap, Jest, and the Sapling and TextGears APIs, ClearWrite is built for efficiency, reliability, and user-focused writing improvement. Deployed on Netlify and Render, it ensures seamless performance and accessibility.",
+    href: "https://www.youtube.com/watch?v=dttIVY8RGUs",
+    texture: "/textures/project/project1.mov",
+    logo: "/assets/project-logo-1.png",
+    logoStyle: {
+      backgroundColor: "#F0F0F0",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight1.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+
+      {
+        id: 2,
+        name: "Node.js",
+        path: "/assets/nodejs-icon.svg",
+      },
+      {
+        id: 3,
+        name: "Bootstrap",
+        path: "assets/Bootstrap_logo.svg",
+      },
+      {
+        id: 4,
+        name: "Jest",
+        path: "/assets/Jest.svg",
+      },
+    ],
+  },
+  {
+    title: "ConfluenceFormatter - AI writing improvement platform",
+    desc: "ClearWrite is an innovative platform that empowers users to improve their writing skills with AI-driven tools. It provides personalized feedback through advanced grammar checks, readability analysis, AI detection, and detailed suggestions, all without rewriting or altering original ideas.",
+    subdesc:
+      "Developed as a web application using React, Node.js, Bootstrap, Jest, and the Sapling and TextGears APIs, ClearWrite is built for efficiency, reliability, and user-focused writing improvement. Deployed on Netlify and Render, it ensures seamless performance and accessibility.",
+    href: "https://www.youtube.com/watch?v=dttIVY8RGUs",
+    texture: "/textures/project/project3.mov",
+    logo: "Confluence",
+    logoStyle: {
+      backgroundColor: "#dbf8ff",
+      border: "0.2px solid #dbf8ff",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/python.svg",
+      },
+    ],
+  },
   {
     title: "ClearWrite - AI writing improvement platform",
     desc: "ClearWrite is an innovative platform that empowers users to improve their writing skills with AI-driven tools. It provides personalized feedback through advanced grammar checks, readability analysis, AI detection, and detailed suggestions, all without rewriting or altering original ideas.",

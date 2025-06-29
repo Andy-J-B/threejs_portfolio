@@ -8,6 +8,8 @@ import { myProjects } from "../constants/index.js";
 import CanvasLoader from "../components/Loading.jsx";
 import DemoComputer from "../components/DemoComputer.jsx";
 
+import { ConfluenceIcon } from "@atlaskit/logo";
+
 const projectCount = myProjects.length;
 
 const Projects = () => {
@@ -51,11 +53,15 @@ const Projects = () => {
             className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg"
             style={currentProject.logoStyle}
           >
-            <img
-              className="w-10 h-10 shadow-sm"
-              src={currentProject.logo}
-              alt="logo"
-            />
+            {currentProject.logo == "Confluence" ? (
+              <ConfluenceIcon appearance="brand" />
+            ) : (
+              <img
+                className="w-10 h-10 shadow-sm"
+                src={currentProject.logo}
+                alt="logo"
+              />
+            )}
           </div>
 
           <div className="flex flex-col gap-5 text-white-600 my-5">
