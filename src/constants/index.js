@@ -60,12 +60,15 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "ContextConnect - AI writing improvement platfor",
-    desc: "Coming soon ...",
-    subdesc: "",
-    href: "",
-    texture: "",
-    logo: "/assets/project-logo-1.png",
+    title: "2025 Motorola Innovation Hackathon - ContextConnect",
+
+    desc: "ContextConnect is a powerful internal knowledge platform designed to make company information instantly accessible and actionable. It continuously crawls and consolidates data from Confluence and Batchat, transforming scattered knowledge into a structured, searchable repository. With seamless integration via a custom MCP (Model-Context Protocol) server, it empowers both developers and internal AI tools to retrieve context-rich information on demand.",
+    subdesc:
+      "Built using React, Cobalt, Python, Playwright, and ElasticSearch, ContextConnect blends intuitive UI with robust backend infrastructure. It features both scheduled and on-demand data crawling, AI middleware for security threat detection, and programmatic access for tools and editors. Deployed using Docker on Google Cloud, the platform ensures scalability, security, and real-time access to dynamic internal knowledge.",
+
+    href: "https://youtu.be/LAE6Pw244jA",
+    texture: "/textures/project/project7.mov",
+    logo: "/assets/logo/contextconnect.png",
     logoStyle: {
       backgroundColor: "#F0F0F0",
       border: "0.2px solid #36201D",
@@ -81,13 +84,23 @@ export const myProjects = [
 
       {
         id: 2,
-        name: "Node.js",
+        name: "Docker",
         path: "/assets/nodejs-icon.svg",
       },
       {
         id: 3,
         name: "React.js",
         path: "/assets/react.svg",
+      },
+      {
+        id: 4,
+        name: "Playwright",
+        path: "/assets/companies/playwright.svg",
+      },
+      {
+        id: 5,
+        name: "ElasticSearch",
+        path: "/assets/companies/elasticsearch.png",
       },
     ],
   },
@@ -97,7 +110,7 @@ export const myProjects = [
     subdesc:
       "Built with Python, ConfluenceFormatter interacts with the Confluence API to retrieve and parse page content. It then prompts Motorola's internal Gen AI to generate polished XHTML output. To ensure secure and compliant usage, each prompt is also validated through Palo Alto's AI Security Check API. Designed for internal efficiency and safe collaboration, ConfluenceFormatter brings smart automation to enterprise documentation.",
     href: "https://www.youtube.com/watch?v=dttIVY8RGUs",
-    texture: "/textures/project/project3.mov",
+    texture: "/textures/project/project7.mov",
     logo: "Confluence",
     logoStyle: {
       backgroundColor: "#dbf8ff",
