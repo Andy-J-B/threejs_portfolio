@@ -60,6 +60,36 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: "2025 Personal Project - Ultrasonic Alarm System with Arduino",
+
+    desc: "An Arduino-based security system leveraging ultrasonic sensing, LEDs, servo motor rotation, and a buzzer to detect objects in real time. The system demonstrates embedded systems design, sensor calibration, and hardware/software integration through a practical security application.",
+
+    subdesc:
+      "Built using Arduino (C++), HC-SR04 ultrasonic sensor, 74HC595 shift register for multiple LEDs, an LCD 1602 display with potentiometer for contrast control, and a servo motor for 180° rotation. Programmed to calculate precise distance values from signal travel time and trigger alarms when objects are detected, showcasing embedded systems prototyping, feedback integration, and real-time monitoring.",
+
+    href: "https://github.com/Andy-J-B/Ultrasonic-Alarm-System",
+    texture: "/textures/project/ultrasonic-system.mov",
+    logo: "/assets/arduino.svg",
+    logoStyle: {
+      backgroundColor: "#FFFFFF",
+      border: "0.2px solid #00979D",
+      boxShadow: "0px 0px 60px 0px #00979D4D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "Arduino",
+        path: "/assets/arduino.svg",
+      },
+      {
+        id: 2,
+        name: "C++",
+        path: "/assets/c++.svg",
+      },
+    ],
+  },
+  {
     title: "2025 Motorola Innovation Hackathon - ContextConnect",
 
     desc: "ContextConnect is a powerful internal knowledge platform designed to make company information instantly accessible and actionable. It continuously crawls and consolidates data from Confluence and Batchat, transforming scattered knowledge into a structured, searchable repository. With seamless integration via a custom MCP (Model-Context Protocol) server, it empowers both developers and internal AI tools to retrieve context-rich information on demand.",

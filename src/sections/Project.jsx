@@ -55,6 +55,12 @@ const Projects = () => {
           >
             {currentProject.logo == "Confluence" ? (
               <ConfluenceIcon appearance="brand" />
+            ) : currentProject.logo == "/assets/arduino.svg" ? (
+              <img
+                className="w-10 h-8 shadow-sm"
+                src={currentProject.logo}
+                alt="logo"
+              />
             ) : (
               <img
                 className="w-10 h-10 shadow-sm"
