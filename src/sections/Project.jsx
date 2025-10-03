@@ -38,6 +38,42 @@ const Projects = () => {
   return (
     <section className="c-space my-20" id="projects">
       <p className="head-text">My Projects</p>
+      <div className="flex-row flex gap-10 mt-5">
+        {myProjects.map((project, key) => {
+          const isActive = key === selectedProjectIndex;
+
+          return (
+            <div
+              key={key}
+              onClick={() => setSelectedProjectIndex(key)}
+              className={`p-2 rounded-md cursor-pointer transition-all duration-300
+          ${isActive ? "scale-110 bg-white/10" : "opacity-70"}
+        `}
+            >
+              {project.logo === "Confluence" ? (
+                <ConfluenceIcon
+                  appearance={isActive ? "brand" : "neutral"}
+                  style={{
+                    filter: isActive ? "none" : "grayscale(100%) contrast(80%)",
+
+                    width: "32px",
+                    height: "32px",
+                  }}
+                />
+              ) : (
+                <img
+                  src={project.logo}
+                  alt="logo"
+                  className="w-8 h-8"
+                  style={{
+                    filter: isActive ? "none" : "grayscale(100%) contrast(80%)",
+                  }}
+                />
+              )}
+            </div>
+          );
+        })}
+      </div>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
