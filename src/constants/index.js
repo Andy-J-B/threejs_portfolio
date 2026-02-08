@@ -60,6 +60,41 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title:
+      "2026 Personal Project - Real-Time AI Weapon Detection System with ESP32-CAM, C, & C++",
+
+    desc: "An edge-to-server security solution utilizing an ESP32-CAM for real-time image capture and a high-performance C++ backend for object detection. The system bridges low-level firmware optimizations with computer vision to identify potential threats, demonstrating a full-stack approach to hardware-accelerated security monitoring.",
+
+    subdesc:
+      "Developed using C++ and FreeRTOS, the firmware implements zero-copy buffers, semaphores, and inter-task queues to manage image processing and SD card logging concurrently on the ESP32. The backend features a custom C++ inference server hosting a YOLOv5 model via OpenCV‑DNN. It leverages asynchronous Boost.Asio networking to handle high-throughput HTTP requests and deliver real-time JSON threat verdicts, highlighting expertise in memory management, multi-threaded synchronization, and scalable system architecture.",
+    href: "https://github.com/Andy-J-B/weapon-detection-system",
+    texture: "/textures/project/project9.mov",
+    logo: "/assets/Espressif-PressKit/01 Standard Logo/SVG/Espressif_Standard_Logo_EN_Vertical.svg",
+    logoStyle: {
+      backgroundColor: "#dbf8ff",
+      border: "0.2px solid #dbf8ff",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Espressif",
+        path: "/assets/Espressif-PressKit/01 Standard Logo/SVG/Espressif_Standard_Logo_EN_Vertical.svg",
+      },
+      {
+        id: 2,
+        name: "C++",
+        path: "/assets/c++.svg",
+      },
+      {
+        id: 3,
+        name: "C",
+        path: "/assets/c.svg",
+      },
+    ],
+  },
+  {
     title: "2025 Personal Project - Ultrasonic Alarm System with Arduino",
 
     desc: "An Arduino-based security system leveraging ultrasonic sensing, LEDs, servo motor rotation, and a buzzer to detect objects in real time. The system demonstrates embedded systems design, sensor calibration, and hardware/software integration through a practical security application.",
@@ -68,7 +103,7 @@ export const myProjects = [
       "Built using Arduino (C++), HC-SR04 ultrasonic sensor, 74HC595 shift register for multiple LEDs, an LCD 1602 display with potentiometer for contrast control, and a servo motor for 180° rotation. Programmed to calculate precise distance values from signal travel time and trigger alarms when objects are detected, showcasing embedded systems prototyping, feedback integration, and real-time monitoring.",
 
     href: "https://github.com/Andy-J-B/Ultrasonic-Alarm-System",
-    texture: "/textures/project/ultrasonic-system.mov",
+    texture: "/textures/project/project8.mov",
     logo: "/assets/arduino.svg",
     logoStyle: {
       backgroundColor: "#FFFFFF",

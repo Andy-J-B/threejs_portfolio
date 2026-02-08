@@ -29,10 +29,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Andy Bae</p>
               <p className="grid-subtext">
-                As a second year computer science major at Simon Fraser
-                University, I am enhancing my skills in frontend and backend
-                development through coursework and projects, creating innovative
-                and functional applications.
+                I am a third-year Computer Science student at Simon Fraser
+                University with a deep-seated passion for low-level systems and
+                embedded software development.
               </p>
             </div>
           </div>
