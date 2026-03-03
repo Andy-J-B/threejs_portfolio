@@ -1,5 +1,5 @@
 import motorola from "../assets/companies/motorola.svg";
-
+import amd from "../assets/companies/amd/amd-vector-logo-seeklogo/amd-seeklogo.png";
 export const navLinks = [
   {
     id: 1,
@@ -364,10 +364,12 @@ export const myProjects = [
 
 export const experiences = [
   {
-    title: "Test Developer",
+    title: "Test Developer Co-op",
     company_name: "Motorola Solutions",
     icon: motorola,
     iconBg: "#ffffff",
+    textColor: "#ffffff",
+    backgroundColor: "#033e6e",
     date: "May 2025 - December 2025",
     points: [
       "Supporting Avigilon's transition from the legacy Tricorder benchmarking system to Benchmark 2.0, modernizing the automation framework for performance testing.",
@@ -375,6 +377,19 @@ export const experiences = [
       "Managing and executing test suites through TestRail, ensuring consistency and reliability of performance regression testing.",
       "Collaborating with systems and embedded developers to evolve automation strategies and improve test coverage for upcoming hardware releases.",
       "Developing and maintaining automated test scripts in Python to validate software and hardware performance.",
+    ],
+  },
+  {
+    title: "Incoming Software Engineering Intern",
+    company_name: "AMD",
+    icon: amd,
+    iconBg: "#000000",
+    backgroundColor: "#012140",
+    textColor: "#f9fafb",
+
+    date: "May 2026 - August 2026",
+    points: [
+      "Will work on the DCGPU BMC firmware team supporting next-generation AMD Instinct MI-series accelerators, contributing to out-of-band management and infrastructure automation for large-scale AI deployments in collaboration with OpenAI.",
     ],
   },
 ];
