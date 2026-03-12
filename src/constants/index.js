@@ -352,10 +352,11 @@ export const experiences = [
     iconBg: "#000000",
     backgroundColor: "#012140",
     textColor: "#f9fafb",
-
     date: "May 2026 - August 2026",
     points: [
-      "Will work on the DCGPU BMC firmware team supporting next-generation AMD Instinct MI-series accelerators, contributing to out-of-band management and infrastructure automation for large-scale AI deployments in collaboration with OpenAI.",
+      "I will be engineering DevOps solutions for the DCGPU BMC Firmware team to support next-generation AMD Instinct™ MI-series accelerators.",
+      "Developing infrastructure automation and out-of-band management systems for large-scale AI deployments in collaboration with OpenAI.",
+      "Optimizing firmware delivery pipelines to enhance reliability for mission-critical AI hardware.",
     ],
   },
 ];
