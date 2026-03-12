@@ -337,12 +337,11 @@ export const experiences = [
     backgroundColor: "#033e6e",
     date: "May 2025 - December 2025",
     points: [
-      "Supporting Avigilon's transition from the legacy Tricorder benchmarking system to Benchmark 2.0, modernizing the automation framework for performance testing.",
-      "Aided in the development of Benchmark, a software tool written in C#, Python, and Go for Embedded and System Engineers to automate the configuration setup of appliances, connection of cameras, and test reports.",
-      "Designing and implementing a high-level C#/.NET client for Dell Switch OS10, enabling automated switch control for the new Benchmark 2.0 system.",
-      "Managing and executing test suites through TestRail, ensuring consistency and reliability of performance regression testing.",
-      "Collaborating with systems and embedded developers to evolve automation strategies and improve test coverage for upcoming hardware releases.",
-      "Developing and maintaining automated test scripts in Python to validate software and hardware performance.",
+      "Architecting the transition from legacy benchmarking systems to Benchmark 2.0, modernizing the automation framework for enterprise performance testing.",
+      "Developing with C#, Python and Go while collaborating with Embedded and System Engineers to automate appliance configuration and hardware validation.",
+      "Engineered a high-level C#/.NET client for Dell OS10, enabling automated network switch control within the Benchmark 2.0 ecosystem.",
+      "Streamlining performance regression testing by managing automated test suites through TestRail and Python-based validation scripts.",
+      "Collaborating with Embedded teams to evolve automation strategies and improve test coverage for upcoming hardware releases.",
     ],
   },
   {
