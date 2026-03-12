@@ -338,7 +338,7 @@ export const experiences = [
     date: "May 2025 - December 2025",
     points: [
       "Supporting Avigilon's transition from the legacy Tricorder benchmarking system to Benchmark 2.0, modernizing the automation framework for performance testing.",
-      "Aided in the development of Benchmark, a software tool written in C#, Python, and Go for Embedded and System Engineers to automate the configuration setup of appliances, connection of cameras, and test reports."
+      "Aided in the development of Benchmark, a software tool written in C#, Python, and Go for Embedded and System Engineers to automate the configuration setup of appliances, connection of cameras, and test reports.",
       "Designing and implementing a high-level C#/.NET client for Dell Switch OS10, enabling automated switch control for the new Benchmark 2.0 system.",
       "Managing and executing test suites through TestRail, ensuring consistency and reliability of performance regression testing.",
       "Collaborating with systems and embedded developers to evolve automation strategies and improve test coverage for upcoming hardware releases.",
