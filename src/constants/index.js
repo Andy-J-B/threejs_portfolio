@@ -345,7 +345,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Incoming Software Engineering Intern",
+    title: "Software Engineering Intern",
     company_name: "AMD",
     icon: amd,
     iconBg: "#000000",
@@ -353,9 +353,10 @@ export const experiences = [
     textColor: "#f9fafb",
     date: "May 2026 - August 2026",
     points: [
-      "I will be engineering DevOps solutions for the DCGPU BMC Firmware team to support next-generation AMD Instinct™ MI-series accelerators.",
-      "Developing infrastructure automation and out-of-band management systems for large-scale AI deployments in collaboration with OpenAI.",
-      "Optimizing firmware delivery pipelines to enhance reliability for mission-critical AI hardware.",
+      "Orchestrated emulation of BMCs for Helios datacenter racks using Terraform, Ansible, and QEMU, enabling critical firmware validation and hardware simulation in pre-production environments.",
+      "Architected robust CI/CD pipelines via GitHub Actions to automate the build, test, and deployment cycles for OpenBMC firmware, significantly reducing manual intervention and accelerating release timelines.",
+      "Standardized global development workflows by managing Docker containers, ensuring environment consistency across testing platforms and streamlining the developer onboarding process.",
+      "Engineered custom diagnostic tools and automated test suites in Python to troubleshoot production-scale DevOps systems, expanding test coverage and identifying bottlenecks to optimize pipeline performance.",
     ],
   },
 ];
