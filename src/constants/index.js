@@ -345,7 +345,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Software Engineering Intern",
+    title: "Firmware Engineer - Automation Intern",
     company_name: "AMD",
     icon: amd,
     iconBg: "#000000",
