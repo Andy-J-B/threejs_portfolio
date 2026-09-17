@@ -27,7 +27,7 @@ const Hero = () => {
           Hi, I am Andy <span className="waving-hand">✋</span> 😊
         </p>
         <p className="hero_tag text-gray_gradient">
-          An aspiring Software Developer!
+          An aspiring Firmware Developer!
         </p>
       </div>
 
