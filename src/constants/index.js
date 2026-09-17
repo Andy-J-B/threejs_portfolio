@@ -345,7 +345,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Firmware Engineer - Automation Intern",
+    title: "DevOps Intern",
     company_name: "AMD",
     icon: amd,
     iconBg: "#000000",
@@ -357,6 +357,19 @@ export const experiences = [
       "Architected robust CI/CD pipelines via GitHub Actions to automate the build, test, and deployment cycles for OpenBMC firmware, significantly reducing manual intervention and accelerating release timelines.",
       "Standardized global development workflows by managing Docker containers, ensuring environment consistency across testing platforms and streamlining the developer onboarding process.",
       "Engineered custom diagnostic tools and automated test suites in Python to troubleshoot production-scale DevOps systems, expanding test coverage and identifying bottlenecks to optimize pipeline performance.",
+    ],
+  },
+  {
+    title: "Firmware Engineering Intern (Incoming)",
+    company_name: "AMD - DCGPU Team",
+    icon: amd,
+    iconBg: "#000000",
+    backgroundColor: "#012140",
+    textColor: "#f9fafb",
+    date: "January 2027 - April 2027 · Upcoming",
+    points: [
+      "Incoming Firmware Engineering Intern on the DCGPU team, focused on BMC firmware development for next-generation datacenter platforms.",
+      "Will be contributing to AMD's internal OpenBMC repository powering BMC firmware for Helios datacenter racks.",
     ],
   },
 ];
