@@ -178,4 +178,129 @@ export const interviews = [
       },
     ],
   },
+  {
+    id: "tesla-swe-validation-r1",
+    company: "Tesla",
+    position: "Software Validation Engineer Intern Interview (Round 1)",
+    date: "August 4, 2026",
+    color: "#cc0000",
+    textColor: "#ffffff",
+    sections: [
+      {
+        type: "behavioral",
+        title: "Behavioural",
+        items: [
+          "Tell me about yourself (the interviewer forgot about my interview and did not have my resume on hand)",
+        ],
+      },
+      {
+        type: "technical",
+        title: "Technical: APIs & Linked Lists",
+        items: [
+          "Can you split up the URL by words? (The API call did not work, so we did this instead)",
+          "Imagine there's a linked list, how would you find the middle node?",
+          "Imagine there's a linked list where each node has another linked list of its own, how would you find the middle?",
+        ],
+      },
+      {
+        type: "technical",
+        title: "Technical: Python Exercise (SWAPI)",
+        content:
+          "Write a Python script against the Star Wars API (https://swapi.dev/api/) with five parts: return the tallest and shortest characters, map each character to their starships, find all characters across the paginated API, explain how concurrency would speed up parts 2 and 3, and find the middle character of a character's name without using the length of the list.",
+        code: `import requests
+import json
+import datetime
+
+# example api call to start with
+url = "https://swapi.dev/api/"
+resp = requests.get(url)
+resp = resp.json()
+print(json.dumps(resp))
+
+
+# part 1
+def tallest_and_shortest():
+    """
+    return a dict of the tallest and shortest characters
+    example output assuming Rob and Nate are the only starwars characters and Rob is tall
+    {"tallest": "Rob", "shortest": "Nate"}
+    """
+    # TODO
+
+
+print(tallest_and_shortest())
+
+
+# part 2
+def all_starships() -> dict:
+    """
+    return a dict that maps each character to the name of their starship(s)
+    example output assuming Rob is the only character and he has 2 cars
+    {"Rob" : ["car1", "car2"]}
+    """
+    # TODO
+
+
+print(all_starships())
+
+
+# part 3
+def find_all_characters() -> list:
+    """
+    there's more characters in the api, find all the characters' name and return as a list
+    """
+    # TODO
+
+
+print(find_all_characters())
+
+
+# part 4
+## explain how you could use concurrency to speed up part 2 & 3
+
+
+# part 5
+def find_middle_character() -> str:
+    """
+    without using the count of the characters list, find the middle of the character's name, and return as a string
+    """
+    # TODO
+
+
+print(find_middle_character())`,
+      },
+    ],
+  },
+  {
+    id: "tesla-swe-validation-r2",
+    company: "Tesla",
+    position: "Software Validation Engineer Intern Interview (Round 2)",
+    date: "August 7, 2026",
+    color: "#cc0000",
+    textColor: "#ffffff",
+    sections: [
+      {
+        type: "behavioral",
+        title: "Behavioural",
+        items: [
+          "Tell me about your past experience",
+          "Why do you think you are fit for the job?",
+          "What is a time where, after validating and approving for release, you found a problem that was not caught in HIL or SIL tests?",
+          "Let's say you are in the factory and the vehicles are made by applying/adding a few components at every station. How can we simulate this in a HIL or SIL environment? (Use relays)",
+        ],
+      },
+      {
+        type: "technical",
+        title: "Technical: Bit Toggling",
+        content:
+          "Given x = 7 and i = 3, turn the ith bit from the right to 1 if it is 0 and to 0 if it is 1. (Python or C)",
+        code: `x = 7
+i = 3
+# x = 0b0111 -> flip the 3rd bit from the right
+# x = 0b1111 (15)`,
+        followUp:
+          "Asked to write it in either Python or C, so the solution should cover both the bitwise approach and any reasoning about the index being 1-based from the right.",
+      },
+    ],
+  },
 ];
